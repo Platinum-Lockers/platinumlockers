@@ -1,4 +1,4 @@
-// ===================== NAV SCROLL =====================
+﻿// ===================== NAV SCROLL =====================
 const navHeader = document.getElementById('nav-header');
 
 window.addEventListener('scroll', () => {
@@ -174,63 +174,66 @@ if (wwaPopout) observer.observe(wwaPopout);
 // ===================== PHOTO GALLERY =====================
 const galleryPhotos = [
   // Hero banner
-  'img/Hero banner/superaquaclub-testimonial.jpeg',
-  'img/Hero banner/Chad Rochefort_Park.jpg',
-  'img/Hero banner/Chad Rochefort_productions_mall.jpg',
-  'img/Hero banner/Chad Rochefort_productions_toronto aquarium.png',
-  'img/Hero banner/DSC_0002 (2).JPG',
-  'img/Hero banner/pexels-stephan-saloth-28489944-31501600.jpg',
+  'img/hero-banner/platinum-lockers-superaqua-club-waterpark.jpeg',
+  'img/hero-banner/platinum-lockers-theme-park-smart-lockers.jpg',
+  'img/hero-banner/platinum-lockers-shopping-mall-smart-lockers.jpg',
+  'img/hero-banner/platinum-lockers-toronto-aquarium-smart-lockers.png',
+  'img/hero-banner/platinum-lockers-venue-smart-locker-unit.jpg',
+  'img/hero-banner/platinum-lockers-waterpark-smart-lockers.jpg',
   // Photos
-  'img/Photos/0c957d6b-cea9-4f0b-ad74-a620d7f61f43.jpg',
-  'img/Photos/0faaca79-4475-4d44-b82c-ef4657461257.jpg',
-  'img/Photos/113d5cc9-41b9-40ae-af26-24f71fa42a4a.png',
-  'img/Photos/20260115_150351.jpg',
-  'img/Photos/290ae18e-a85e-4de6-8e3b-1c25a7b98e37.jpg',
-  'img/Photos/362516fd-6236-48d2-9837-441af3082209.jpg',
-  'img/Photos/4362312b-16b2-4f0b-82d3-302afff77df8.jpg',
-  'img/Photos/4f1eb6ec-e5e6-4b6b-b901-0fbc2710b4f8.jpg',
-  'img/Photos/59785616-d3d9-4835-b60b-3302b41bdca7.png',
-  'img/Photos/5b4f7077-5ac3-430d-bda6-9a5511132bb0.jpg',
-  'img/Photos/79a22fca-0181-4989-8d6d-17634e326fb5.jpg',
-  'img/Photos/89c0391f-5302-48d2-9522-85af20e37698.jpg',
-  'img/Photos/8b683573-1f1b-44bb-984c-6f9a42ffe08b.jpg',
-  'img/Photos/9676a534-d861-417f-8e8e-56f2cd14cee4.jpg',
-  'img/Photos/DSC_0002 (2).JPG',
-  'img/Photos/DSC_0319.JPG',
-  'img/Photos/DSC_0997.JPG',
-  'img/Photos/DSC_1000-2.JPG',
-  'img/Photos/Falsom 1.jpg',
-  'img/Photos/Fireside Surf LLC locker.png',
-  'img/Photos/Goplex 1.png',
-  'img/Photos/IMG-20230417-WA0001.jpg',
-  'img/Photos/IMG-20230417-WA0002.jpg',
-  'img/Photos/IMG-20230417-WA0004.jpg',
-  'img/Photos/IMG_6335.jpeg',
-  'img/Photos/IMG_8109.jpg',
-  'img/Photos/Image (4).jpg',
-  'img/Photos/Image (6).jpg',
-  'img/Photos/Launch Lew 1.jpg',
-  'img/Photos/Media (1).jpg',
-  'img/Photos/Media (2).jpg',
-  'img/Photos/MicrosoftTeams-image (6).png',
-  'img/Photos/Oceania 1.jpg',
-  'img/Photos/Oceania 2.jpg',
-  'img/Photos/Oceania 3.jpg',
-  'img/Photos/San dimas 2.jpg',
-  'img/Photos/Stanbrooke layout.jpg',
-  'img/Photos/Straight on 03 11 2025.jpg',
-  'img/Photos/a86a0da2-32e7-4545-8e7b-3b8b434e4884.jpg',
-  'img/Photos/ad2d4a7e-bc75-4428-be49-d31337627073.jpg',
-  'img/Photos/b674d916-d7d6-4218-a982-0d73965633c7.jpg',
-  'img/Photos/e3491b6e-565f-4f65-b60c-a8cb98dac76c.jpg',
-  'img/Photos/image3.jpeg',
-  'img/Photos/thumbnail_IMG_8087.jpg',
-  'img/Photos/thumbnail_IMG_8088.jpg',
-  'img/Photos/thumbnail_IMG_8094.jpg',
+  'img/venue-installations/platinum-lockers-installation-01.jpg',
+  'img/venue-installations/platinum-lockers-installation-02.jpg',
+  'img/venue-installations/platinum-lockers-installation-03.png',
+  'img/venue-installations/platinum-lockers-installation-04.jpg',
+  'img/venue-installations/platinum-lockers-installation-05.jpg',
+  'img/venue-installations/platinum-lockers-installation-06.jpg',
+  'img/venue-installations/platinum-lockers-installation-07.jpg',
+  'img/venue-installations/platinum-lockers-installation-08.jpg',
+  'img/venue-installations/platinum-lockers-installation-09.png',
+  'img/venue-installations/platinum-lockers-installation-10.jpg',
+  'img/venue-installations/platinum-lockers-installation-11.jpg',
+  'img/venue-installations/platinum-lockers-installation-12.jpg',
+  'img/venue-installations/platinum-lockers-installation-13.jpg',
+  'img/venue-installations/platinum-lockers-installation-14.jpg',
+  'img/venue-installations/platinum-lockers-locker-unit-closeup.jpg',
+  'img/venue-installations/platinum-lockers-locker-bank-installation.jpg',
+  'img/venue-installations/platinum-lockers-smart-locker-row.jpg',
+  'img/venue-installations/platinum-lockers-smart-locker-bank.jpg',
+  'img/venue-installations/platinum-lockers-folsom-venue.jpg',
+  'img/venue-installations/platinum-lockers-fireside-surf.png',
+  'img/venue-installations/platinum-lockers-goplex-venue.png',
+  'img/venue-installations/platinum-lockers-installation-15.jpg',
+  'img/venue-installations/platinum-lockers-installation-16.jpg',
+  'img/venue-installations/platinum-lockers-installation-17.jpg',
+  'img/venue-installations/platinum-lockers-installation-18.jpeg',
+  'img/venue-installations/platinum-lockers-installation-19.jpg',
+  'img/venue-installations/platinum-lockers-installation-20.jpg',
+  'img/venue-installations/platinum-lockers-installation-21.jpg',
+  'img/venue-installations/platinum-lockers-launch-lew-venue.jpg',
+  'img/venue-installations/platinum-lockers-installation-22.jpg',
+  'img/venue-installations/platinum-lockers-installation-23.jpg',
+  'img/venue-installations/platinum-lockers-installation-24.png',
+  'img/venue-installations/platinum-lockers-oceania-venue-01.jpg',
+  'img/venue-installations/platinum-lockers-oceania-venue-02.jpg',
+  'img/venue-installations/platinum-lockers-oceania-venue-03.jpg',
+  'img/venue-installations/platinum-lockers-san-dimas-venue.jpg',
+  'img/venue-installations/platinum-lockers-stanbrooke-layout.jpg',
+  'img/venue-installations/platinum-lockers-smart-locker-front-view.jpg',
+  'img/venue-installations/platinum-lockers-installation-25.jpg',
+  'img/venue-installations/platinum-lockers-installation-26.jpg',
+  'img/venue-installations/platinum-lockers-installation-27.jpg',
+  'img/venue-installations/platinum-lockers-installation-28.jpg',
+  'img/venue-installations/platinum-lockers-installation-29.jpeg',
+  'img/venue-installations/platinum-lockers-smart-locker-thumbnail-01.jpg',
+  'img/venue-installations/platinum-lockers-smart-locker-thumbnail-02.jpg',
+  'img/venue-installations/platinum-lockers-smart-locker-thumbnail-03.jpg',
 ];
 
-const GALLERY_VISIBLE = 12;
 const galleryGrid = document.getElementById('gallery-grid');
+
+function getVisibleCount() {
+  return window.innerWidth <= 425 ? 6 : 12;
+}
 
 // Shuffle helper
 function shuffle(arr) {
@@ -243,25 +246,28 @@ function shuffle(arr) {
 }
 
 // Tracks which src is in each slot (index → src)
-const slotSrc = new Array(GALLERY_VISIBLE).fill(null);
+let slotSrc = [];
 
 // Queue of photos not currently visible — refills when exhausted
 let queue = [];
 function nextFromQueue() {
   if (queue.length === 0) {
-    // Refill with all photos not currently on screen, shuffled
     const visible = new Set(slotSrc.filter(Boolean));
     queue = shuffle(galleryPhotos.filter(s => !visible.has(s)));
   }
   return queue.shift();
 }
 
-// Slot rotation order: cycle through slots 0–11 in order so no slot is starved
 let nextSlotIndex = 0;
+let rotateInterval = null;
 
 function buildGallery() {
+  const count = getVisibleCount();
+  slotSrc = new Array(count).fill(null);
+  queue = [];
+  nextSlotIndex = 0;
   galleryGrid.innerHTML = '';
-  const initial = shuffle(galleryPhotos).slice(0, GALLERY_VISIBLE);
+  const initial = shuffle(galleryPhotos).slice(0, count);
   initial.forEach((src, i) => {
     slotSrc[i] = src;
     const item = document.createElement('div');
@@ -278,12 +284,13 @@ function buildGallery() {
 }
 
 function rotateGallery() {
+  const count = getVisibleCount();
   const items = galleryGrid.querySelectorAll('.gallery-item');
-  const slotIndex = nextSlotIndex % GALLERY_VISIBLE;
+  const slotIndex = nextSlotIndex % count;
   nextSlotIndex++;
 
   const newSrc = nextFromQueue();
-  if (!newSrc) return; // shouldn't happen, but guard
+  if (!newSrc) return;
 
   const slot = items[slotIndex];
   slot.classList.add('fade-out');
@@ -297,8 +304,23 @@ function rotateGallery() {
   }, 600);
 }
 
-buildGallery();
-setInterval(rotateGallery, 3000);
+function startGallery() {
+  buildGallery();
+  if (rotateInterval) clearInterval(rotateInterval);
+  rotateInterval = setInterval(rotateGallery, 3000);
+}
+
+startGallery();
+
+// Rebuild if crossing the 425px breakpoint
+let wasSmall = window.innerWidth <= 425;
+window.addEventListener('resize', () => {
+  const isSmall = window.innerWidth <= 425;
+  if (isSmall !== wasSmall) {
+    wasSmall = isSmall;
+    startGallery();
+  }
+});
 
 // ---- Lightbox ----
 const lightbox      = document.getElementById('lightbox');
@@ -324,3 +346,74 @@ lightbox.addEventListener('click', (e) => {
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeLightbox();
 });
+
+// ===================== TESTIMONIAL CAROUSEL =====================
+const tcTrackWrap = document.querySelector('.tc-track-wrap');
+const tcTrack     = document.querySelector('.tc-track');
+const tcCards     = document.querySelectorAll('.testimonial-card');
+const tcDotsEl    = document.getElementById('tc-dots');
+const tcPrevBtn   = document.querySelector('.tc-prev');
+const tcNextBtn   = document.querySelector('.tc-next');
+let tcCurrentPage = 0;
+
+function tcPerPage()    { return window.innerWidth <= 640 ? 1 : 3; }
+function tcTotalPages() { return Math.ceil(tcCards.length / tcPerPage()); }
+
+function tcBuildDots() {
+  tcDotsEl.innerHTML = '';
+  const total = tcTotalPages();
+  for (let i = 0; i < total; i++) {
+    const btn = document.createElement('button');
+    btn.className = 'tc-dot' + (i === tcCurrentPage ? ' active' : '');
+    btn.setAttribute('aria-label', `Page ${i + 1}`);
+    btn.addEventListener('click', () => tcGoTo(i));
+    tcDotsEl.appendChild(btn);
+  }
+}
+
+function tcGoTo(page) {
+  const total = tcTotalPages();
+  const gap   = window.innerWidth <= 640 ? 0 : 24;
+  // getBoundingClientRect is reliable at any point after layout
+  const w     = tcTrackWrap.getBoundingClientRect().width;
+
+  tcCurrentPage = ((page % total) + total) % total;
+  tcTrack.style.transform = `translateX(-${tcCurrentPage * (w + gap)}px)`;
+
+  tcDotsEl.querySelectorAll('.tc-dot').forEach((d, i) =>
+    d.classList.toggle('active', i === tcCurrentPage)
+  );
+
+  // Fully remove arrows from layout when there is only one page
+  const multiPage = total > 1;
+  tcPrevBtn.classList.toggle('tc-hidden', !multiPage);
+  tcNextBtn.classList.toggle('tc-hidden', !multiPage);
+}
+
+function tcInit() {
+  if (tcCurrentPage >= tcTotalPages()) tcCurrentPage = 0;
+  tcBuildDots();
+  tcGoTo(tcCurrentPage);
+}
+
+// Defer until after first paint so getBoundingClientRect has real dimensions
+requestAnimationFrame(tcInit);
+
+tcPrevBtn.addEventListener('click', () => tcGoTo(tcCurrentPage - 1));
+tcNextBtn.addEventListener('click', () => tcGoTo(tcCurrentPage + 1));
+
+// Rebuild on breakpoint cross (640px)
+let tcWasSmall = window.innerWidth <= 640;
+window.addEventListener('resize', () => {
+  const small = window.innerWidth <= 640;
+  if (small !== tcWasSmall) { tcWasSmall = small; tcCurrentPage = 0; tcInit(); }
+  else tcGoTo(tcCurrentPage);
+}, { passive: true });
+
+// Swipe support
+let tcTouchX = 0;
+tcTrack.addEventListener('touchstart', (e) => { tcTouchX = e.touches[0].clientX; }, { passive: true });
+tcTrack.addEventListener('touchend', (e) => {
+  const diff = tcTouchX - e.changedTouches[0].clientX;
+  if (Math.abs(diff) > 40) tcGoTo(tcCurrentPage + (diff > 0 ? 1 : -1));
+}, { passive: true });
